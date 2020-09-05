@@ -4695,13 +4695,14 @@ input, select, textarea {
 		justify-content:center;
 		align-content:center;
 		align-items:center;
+		background-color: black;
 	  }
 	  
 	  /** Necessary style **/
 	  
 	  .text-flicker-out-glow{
-		font-size:15vw;
-		color:red;
+		font-size:10vw;
+		color:whitesmoke;
 		font-family: 'Mr Dafoe';
 		margin:0;
 		padding:0;
