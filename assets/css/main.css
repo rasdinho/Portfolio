@@ -4703,7 +4703,7 @@ input, select, textarea {
 	  /** Necessary style **/
 	  
 	  .text-flicker-out-glow{
-		font-size:10vw;
+		font-size:8vw;
 		color:whitesmoke;
 		font-family: 'Mr Dafoe';
 		margin:0;
@@ -4964,3 +4964,5 @@ input, select, textarea {
 		  opacity: 0;
 		}
 	  }
+
+	  /*  */
