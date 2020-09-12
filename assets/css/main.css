@@ -4965,4 +4965,42 @@ input, select, textarea {
 		}
 	  }
 
-	  /*  */
+	  /* =========================================== contact slide =========================== */
+	  
+.set {
+  
+  padding: 30px;
+
+ #written {
+    
+    position: absolute;
+    
+    span {
+      position: relative;
+      -webkit-animation: fly 1s linear alternate;
+    }
+    
+  }
+  
+}
+
+@-webkit-keyframes fly {
+
+  0% {
+    opacity: 0;
+    top: -30px;
+    left: -30px;
+  }
+  
+  50% {
+    opacity: 0.5;
+
+  }
+  
+  100% {
+    opacity: 1;
+    top: 0;
+    left: 0;
+  }
+
+}
