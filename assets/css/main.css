@@ -5071,7 +5071,26 @@ input, select, textarea {
   }
   
   
-  
+    
+  @keyframes animate {
+	0%, 100%{
+	  color: #fff;
+	  filter: blur(2px);
+	  text-shadow: 0 0 10px #00bbff,
+		0 0 20px #00bbff,
+		0 0 40px #00bbff,
+		0 0 80px #00bbff,
+		0 0 120px #00bbff,
+		0 0 200px #00bbff,
+		0 0 300px #00bbff,
+		0 0 400px #00bbff;
+	}
+	5%, 95%{
+	  color: #111;
+	  filter: blur(0px);
+	  text-shadow: none;
+	}
+  }
 
   
   
